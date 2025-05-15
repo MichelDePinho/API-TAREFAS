@@ -14,6 +14,6 @@ app.use(express.json())
 app.use(router)
 app.use(routerTarefa)
 
-// await database.sync()
+await database.sync()
 
 app.listen(3000, () => console.log('servidor rodando'))
